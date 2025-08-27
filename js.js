@@ -17,7 +17,6 @@ function divisibleSumPairs(n, k, ar) {
     return result;
 }
 
-
 // Time Conversion - Hackerrank
 
 function timeConversion(s) {
@@ -39,7 +38,6 @@ function timeConversion(s) {
     return newS.join("");
 }
 
-
 // Plus minus - Hackerrank
 
 function plusMinus(arr) {
@@ -52,7 +50,7 @@ function plusMinus(arr) {
             pr++;
         } else if (arr[i] == 0) {
             none++;
-        } else if (arr[i] < 0) {
+        } else {
             se++;
         }
     }
@@ -61,7 +59,6 @@ function plusMinus(arr) {
     console.log((none / arr.length).toFixed(6));
 }
 
-
 // Minimum Height Triangle - Hackerrank
 
 function lowestTriangle(trianglebase, area) {
@@ -69,7 +66,6 @@ function lowestTriangle(trianglebase, area) {
 
     return Math.ceil(height);
 }
-
 
 // Grading Students - Hackerrank
 
